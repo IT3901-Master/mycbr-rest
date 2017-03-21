@@ -1,0 +1,450 @@
+[
+  {
+    "model": "utsida.institute",
+    "pk": "HF-IFR",
+    "fields": {
+      "faculty": "HF",
+      "name": "Institutt for filosofi og religionsvitenskap"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "HF-IHS",
+    "fields": {
+      "faculty": "HF",
+      "name": "Institutt for historiske studier"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "HF-IKM",
+    "fields": {
+      "faculty": "HF",
+      "name": "Institutt for kunst- og medievitenskap"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "HF-IM",
+    "fields": {
+      "faculty": "HF",
+      "name": "Institutt for musikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "HF-ISL",
+    "fields": {
+      "faculty": "HF",
+      "name": "Institutt for språk og litteratur"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "HF-KULT",
+    "fields": {
+      "faculty": "HF",
+      "name": "Institutt for tverrfaglige kulturstudier"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-IHG",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for helsevitenskap i Gjøvik"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-IHA",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for helsevitenskap i Ålesund"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-KAVLI",
+    "fields": {
+      "faculty": "MH",
+      "name": "Kavliinstitutt for nevrovitenskap"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-IKMM",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for kreftforskning og molekylær medisin"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-LBK",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for laboratoriemedisin, barne- og kvinnesykdommer"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-INB",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for nevromedisin og bevegelsesvitenskap"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-IPH",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for psykisk helse"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-ISM",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for samfunnsmedisin og sykepleie"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "MH-ISB",
+    "fields": {
+      "faculty": "MH",
+      "name": "Institutt for sirkulasjon og bildediagnostikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "AD-KIT",
+    "fields": {
+      "faculty": "AD",
+      "name": "Kunstakademiet i Trondheim"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "AD-ID",
+    "fields": {
+      "faculty": "AD",
+      "name": "Institutt for design"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "AD-IAT",
+    "fields": {
+      "faculty": "AD",
+      "name": "Institutt for arkitektur og teknologi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "AD-IAP",
+    "fields": {
+      "faculty": "AD",
+      "name": "Institutt for arkitektur og planlegging"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-IAL",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for allmennfag"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-IDI",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for datateknologi og informatikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-IES",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for elektroniske systemer"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-ELKRAFT",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for elkraftteknikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-IIR",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for IKT og realfag"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-IIK",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for informasjonssikkerhet og kommunikasjonsteknologi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-IMF",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for matematiske fag"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IE-ITK",
+    "fields": {
+      "faculty": "IE",
+      "name": "Institutt for teknisk kybernetikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-EPT",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for energi- og prosessteknikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-IMT",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for marin teknikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-IGP",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for geovitenskap og petroleum"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-IBM",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for bygg- og miljøteknikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-KT",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for konstruksjonsteknikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-MTP",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for maskinteknikk og produksjon"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-IHB",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for havromsoperasjoner og byggteknikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "IV-IVB",
+    "fields": {
+      "faculty": "IV",
+      "name": "Institutt for vareproduksjon og byggteknikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-BIOLOGI",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for biologi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-IBA",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for biologiske fag Ålesund"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-IBT",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for bioteknologi og matvitenskap"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-IBF",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for bioingeniørfag"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-FYSIKK",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for fysikk"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-KJEMI",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for kjemi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-IKP",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for kjemisk prosessteknologi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "NV-IMT",
+    "fields": {
+      "faculty": "NV",
+      "name": "Institutt for materialteknologi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "SU-IGE",
+    "fields": {
+      "faculty": "SU",
+      "name": "Institutt for geografi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "SU-ILU",
+    "fields": {
+      "faculty": "SU",
+      "name": "Institutt for lærerutdanning"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "SU-IPL",
+    "fields": {
+      "faculty": "SU",
+      "name": "Institutt for pedagogikk og livslang læring"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "SU-ISA",
+    "fields": {
+      "faculty": "SU",
+      "name": "Institutt for sosialt arbeid"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "SU-ISS",
+    "fields": {
+      "faculty": "SU",
+      "name": "Institutt for sosiologi og statsvitenskap"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "SU-IPS",
+    "fields": {
+      "faculty": "SU",
+      "name": "Institutt for psykologi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "SU-SOSANT",
+    "fields": {
+      "faculty": "SU",
+      "name": "Institutt for sosialantropologi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "ØK-HHS",
+    "fields": {
+      "faculty": "ØK",
+      "name": "NTNU Handelshøyskolen"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "ØK-IIF",
+    "fields": {
+      "faculty": "ØK",
+      "name": "Institutt for internasjonal forretningsdrift"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "ØK-IOT",
+    "fields": {
+      "faculty": "ØK",
+      "name": "Institutt for industriell økonomi og teknologiledelse"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "ØK-ECON",
+    "fields": {
+      "faculty": "ØK",
+      "name": "Institutt for samfunnsøkonomi"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "VM-INH",
+    "fields": {
+      "faculty": "VM",
+      "name": "Institutt for naturhistorie"
+    }
+  },
+  {
+    "model": "utsida.institute",
+    "pk": "VM-IAK",
+    "fields": {
+      "faculty": "VM",
+      "name": "Institutt for arkeologi og kulturhistorie"
+    }
+  }
+]
