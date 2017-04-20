@@ -66,8 +66,8 @@ def parse_html():
             next_element = data_list[i+1]
             data_object['study_period'] = format_study_period(next_element)
 
-        elif element == "Undervisningsspråk:":
-            next_element = data_list[i+2]
+        elif element == "Undervisningsspr":
+            next_element = data_list[i+3].replace(" ", "").replace('\n', '')
             data_object['language'] = format_language(next_element)
             if not format_language(next_element) in languages:
                 languages.append(format_language(next_element))
@@ -111,6 +111,9 @@ def parse_html():
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
+
+        elif "Undervisningsspr" in element:
+            print("dsadw", element)
 
         data_object["academic_quality"] = get_rating("academic")
         data_object["social_quality"] = get_rating("social")
@@ -414,6 +417,16 @@ def make_csv():
     output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;ResidentialQuality;ReceptionQuality;Link;Subjects" + '\n')
 
     for case in cases:
+
+        if case['university'] == "Uc Berkeley":
+            case['university'] = "University Of California,Berkeley"
+        elif case['university'] == "Tu Berlin":
+            case['university'] = "Technical University of Berlin"
+        elif case['university'] == "Tu Munchen":
+            case['university'] = "Technical University of Munich"
+        elif case['university'] == "Tu Delft":
+            case['university'] = "Delft University of Technology"
+
         courses = ""
         final_course = len(case['courses'])
         counter = 1
