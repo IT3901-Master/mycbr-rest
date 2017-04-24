@@ -426,6 +426,8 @@ def make_csv():
             case['university'] = "Technical University of Munich"
         elif case['university'] == "Tu Delft":
             case['university'] = "Delft University of Technology"
+        elif case['university'] == "Inpg - Ensimag":
+            case['university'] = "Ensimag"
 
         courses = ""
         final_course = len(case['courses'])

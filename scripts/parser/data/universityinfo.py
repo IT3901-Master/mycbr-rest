@@ -20,6 +20,10 @@ universities = [
 {'name': 'Technical University of Munich', 'acronym': 'TUM'},
 {'name': 'Polytechnic University of Catalonia', 'acronym': 'UPC'},
 {'name': 'Swedish University of Agricultural Sciences', 'acronym': 'SLU'},
-{'name': 'Royal Institute of Technology', 'acronym': 'KTH'}
+{'name': 'Royal Institute of Technology', 'acronym': 'KTH'},
+{'name': 'Universidad Politecnica De Valencia', 'acronym': 'UPV'},
+{'name': 'University of Technology Sydney', 'acronym': 'UTS'},
+{'name': 'Ensimag', 'acronym': 'IMAG'},
+{'name': 'Pierre-and-Marie-Curie University', 'acronym': 'UPMC'}
 ]
 
