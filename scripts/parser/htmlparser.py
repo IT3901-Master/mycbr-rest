@@ -177,6 +177,10 @@ def format_country(s):
     if s.isupper():
         return s
     else:
+        if s == "Korea":
+            return "Sør-Korea"
+        if s == "Sør Afrika":
+            return "Sør-Afrika"
         return titlecase(s)
     
 
